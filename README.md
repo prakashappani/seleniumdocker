@@ -1,4 +1,4 @@
-# Selenium - Chrome image building
+## How to Build Selenium - Chrome docker image 
 ```
 docker build --tag=myuitest .
 ```
