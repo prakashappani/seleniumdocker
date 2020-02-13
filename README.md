@@ -6,19 +6,19 @@ git clone https://github.com/prakashappani/seleniumdocker.git
 ```
 ## How to Build Selenium - Chrome docker image 
 ```
-docker build --tag=myuitest .
+docker build --tag=myuitestsdockerimage .
 ```
 ## How to use this image
 
 First, you will need a Selenium Grid Hub that the Node will connect to.
 
 ```
-docker run -d -p 4444:4444 --name myuitest -v /dev/shm:/dev/shm  myuitest 
-docker exec -it myuitest bash
+docker run -d -p 4444:4444 --name myuitestsdockercontainer -v /dev/shm:/dev/shm  myuitestsdockerimage 
+docker exec -it myuitestsdockercontainer bash
 ```
 ## How to get latest code
 
-Pull the latest code.
+OPTIONAL STEP: Pull the latest code.
 
 ```
 git pull "https://github.com/prakashappani/swaglabsuitests.git" 
