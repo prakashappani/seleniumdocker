@@ -1,3 +1,9 @@
+## How to  get this project
+
+Clone this repository
+```
+git clone https://github.com/prakashappani/seleniumdocker.git
+```
 ## How to Build Selenium - Chrome docker image 
 ```
 docker build --tag=myuitest .
