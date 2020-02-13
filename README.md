@@ -1,6 +1,7 @@
 # Selenium - Chrome image building
+```
 docker build --tag=myuitest .
-
+```
 ## How to use this image
 
 First, you will need a Selenium Grid Hub that the Node will connect to.
